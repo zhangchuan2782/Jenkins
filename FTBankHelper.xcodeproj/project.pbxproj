@@ -22,9 +22,6 @@
 		4A6F58161F9DB4830024432B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F58151F9DB4830024432B /* CoreBluetooth.framework */; };
 		4A6F58181F9DB48B0024432B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F58171F9DB48B0024432B /* MediaPlayer.framework */; };
 		4A6F581A1F9DB4950024432B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F58191F9DB4940024432B /* CoreTelephony.framework */; };
-		4A6F582F1F9DD41B0024432B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6F582B1F9DD41A0024432B /* SVIndefiniteAnimatedView.m */; };
-		4A6F58301F9DD41B0024432B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A6F582C1F9DD41A0024432B /* SVProgressHUD.bundle */; };
-		4A6F58311F9DD41B0024432B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6F582E1F9DD41A0024432B /* SVProgressHUD.m */; };
 		4A98B35C1C1A738300702820 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A98B35A1C1A738300702820 /* GTMBase64.m */; };
 		4A98B4191C21152C00702820 /* UploadFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A98B4181C21152C00702820 /* UploadFiles.m */; };
 		4AD1ADCE1BF338B200C17245 /* safeURL.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AD1ADCD1BF338B200C17245 /* safeURL.plist */; };
@@ -94,11 +91,6 @@
 		4A6F58171F9DB48B0024432B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		4A6F58191F9DB4940024432B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		4A6F581E1F9DB84F0024432B /* MyMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMacro.h; sourceTree = "<group>"; };
-		4A6F582A1F9DD41A0024432B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		4A6F582B1F9DD41A0024432B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		4A6F582C1F9DD41A0024432B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		4A6F582D1F9DD41A0024432B /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		4A6F582E1F9DD41A0024432B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		4A98B3591C1A738300702820 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		4A98B35A1C1A738300702820 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		4A98B35B1C1A738300702820 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
@@ -261,18 +253,6 @@
 			name = DeviceList;
 			sourceTree = "<group>";
 		};
-		4A6F58291F9DD41A0024432B /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				4A6F582A1F9DD41A0024432B /* SVIndefiniteAnimatedView.h */,
-				4A6F582B1F9DD41A0024432B /* SVIndefiniteAnimatedView.m */,
-				4A6F582C1F9DD41A0024432B /* SVProgressHUD.bundle */,
-				4A6F582D1F9DD41A0024432B /* SVProgressHUD.h */,
-				4A6F582E1F9DD41A0024432B /* SVProgressHUD.m */,
-			);
-			path = SVProgressHUD;
-			sourceTree = SOURCE_ROOT;
-		};
 		4AD1ADD41BF35C1200C17245 /* include */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,7 +286,6 @@
 		4AEB92D61BF07ED100816BA4 /* FTBankHelper */ = {
 			isa = PBXGroup;
 			children = (
-				4A6F58291F9DD41A0024432B /* SVProgressHUD */,
 				4A6F581F1F9DCC880024432B /* DeviceList */,
 				4AD1ADD41BF35C1200C17245 /* include */,
 				4A62EC041FA0805100E11055 /* DeviceModel.h */,
@@ -501,7 +480,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A6F58301F9DD41B0024432B /* SVProgressHUD.bundle in Resources */,
 				4AEB931A1BF1E4A100816BA4 /* BankURL.plist in Resources */,
 				4AD1ADCE1BF338B200C17245 /* safeURL.plist in Resources */,
 				4AEB92E21BF07ED100816BA4 /* Main.storyboard in Resources */,
@@ -542,8 +520,6 @@
 				4A1F707B1C004C190004A663 /* FeedbackTableViewCell3.m in Sources */,
 				4A98B4191C21152C00702820 /* UploadFiles.m in Sources */,
 				4AEB92D91BF07ED100816BA4 /* main.m in Sources */,
-				4A6F582F1F9DD41B0024432B /* SVIndefiniteAnimatedView.m in Sources */,
-				4A6F58311F9DD41B0024432B /* SVProgressHUD.m in Sources */,
 				4A1F706D1BFB349F0004A663 /* FeedbackTableViewCell.m in Sources */,
 				4A1F706A1BFB34830004A663 /* FeedBackViewController.m in Sources */,
 				68EBE5512436052800249522 /* FTOneClickCheckController.m in Sources */,
