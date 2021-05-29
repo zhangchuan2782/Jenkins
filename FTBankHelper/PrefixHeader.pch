@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  FTBankHelper
+//
+//  Created by Jermy on 2017/10/23.
+//  Copyright © 2017年 Jermy. All rights reserved.
+//
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "SVProgressHUD.h"
+#import <AVFoundation/AVFoundation.h>
+#import "GTMBase64.h"
+#import "UploadFiles.h"
+#import "DeviceModel.h"
+#import "GTMBase64.h"
+
+typedef NS_ENUM(int, KeyType){
+    KeyType_Audio = 0,
+    KeyType_BLE = 1,
+};
+
+#endif /* PrefixHeader_pch */

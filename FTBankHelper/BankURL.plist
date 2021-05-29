@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>工商银行</key>
+	<dict>
+		<key>URL</key>
+		<string>com.icbc.iphoneclient://com.icbc.iphoneclient</string>
+		<key>name</key>
+		<string>工商银行</string>
+		<key>APPLink</key>
+		<string>itms-apps://itunes.apple.com/cn/app/gong-xing-shou-ji-yin-xing/id423514795?mt=8</string>
+	</dict>
+	<key>农业银行</key>
+	<dict>
+		<key>URL</key>
+		<string>bankabc://com.bankabc.iphonerelease</string>
+		<key>name</key>
+		<string>农业银行</string>
+		<key>APPLink</key>
+		<string>itms-apps://itunes.apple.com/cn/app/nong-xing-zhang-shang-yin-xing/id515651240?mt=8</string>
+	</dict>
+	<key>中国银行</key>
+	<dict>
+		<key>URL</key>
+		<string>BOCMBCIZF://</string>
+		<key>name</key>
+		<string>中国银行</string>
+		<key>APPLink</key>
+		<string>itms-apps://itunes.apple.com/cn/app/zhong-guo-yin-xing-shou-ji/id399608199?mt=8</string>
+	</dict>
+</dict>
+</plist>

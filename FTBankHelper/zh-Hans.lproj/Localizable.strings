@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  FTBankHelper
+
+  Created by Jermy on 2017/10/27.
+  Copyright © 2017年 Jermy. All rights reserved.
+*/
+"操作成功" = "操作成功";
+"未找到设备" = "未找到设备";
+"蓝牙未开启" = "手机蓝牙未开启，请在设置-蓝牙中开启蓝牙";
+"不支持BLE" = "该设备不支持蓝牙BLE";
+"蓝牙连接失败" = "连接蓝牙设备失败";
+"未知错误" = "未知错误";
+

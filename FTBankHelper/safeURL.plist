@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>360手机安全卫士</key>
+	<dict>
+		<key>URL</key>
+		<string>systemexpert360://systemexpert360</string>
+		<key>name</key>
+		<string>360手机安全卫士</string>
+	</dict>
+</dict>
+</plist>

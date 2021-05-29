@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1632FC1FC277E1001F4572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1632FB1FC277E1001F4572 /* Assets.xcassets */; };
+		4A1EA73E1C228938000CAF23 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EA73D1C228938000CAF23 /* Reachability.m */; };
+		4A1F70141BF701990004A663 /* aboutUsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1F70131BF701990004A663 /* aboutUsTableViewCell.m */; };
+		4A1F70181BF71CEF0004A663 /* iphoneInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1F70171BF71CEF0004A663 /* iphoneInfoTableViewCell.m */; };
+		4A1F706A1BFB34830004A663 /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1F70691BFB34830004A663 /* FeedBackViewController.m */; };
+		4A1F706D1BFB349F0004A663 /* FeedbackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1F706C1BFB349F0004A663 /* FeedbackTableViewCell.m */; };
+		4A1F707B1C004C190004A663 /* FeedbackTableViewCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1F707A1C004C190004A663 /* FeedbackTableViewCell3.m */; };
+		4A1F707E1C004EC50004A663 /* FeedBackTableViewCell4.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1F707D1C004EC50004A663 /* FeedBackTableViewCell4.m */; };
+		4A62EC061FA0805100E11055 /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A62EC051FA0805100E11055 /* DeviceModel.m */; };
+		4A6F58101F9DB4650024432B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F580F1F9DB4650024432B /* CoreMotion.framework */; };
+		4A6F58121F9DB46F0024432B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F58111F9DB46F0024432B /* AVFoundation.framework */; };
+		4A6F58141F9DB47B0024432B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F58131F9DB47B0024432B /* AudioToolbox.framework */; };
+		4A6F58161F9DB4830024432B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F58151F9DB4830024432B /* CoreBluetooth.framework */; };
+		4A6F58181F9DB48B0024432B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F58171F9DB48B0024432B /* MediaPlayer.framework */; };
+		4A6F581A1F9DB4950024432B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F58191F9DB4940024432B /* CoreTelephony.framework */; };
+		4A6F582F1F9DD41B0024432B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6F582B1F9DD41A0024432B /* SVIndefiniteAnimatedView.m */; };
+		4A6F58301F9DD41B0024432B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A6F582C1F9DD41A0024432B /* SVProgressHUD.bundle */; };
+		4A6F58311F9DD41B0024432B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6F582E1F9DD41A0024432B /* SVProgressHUD.m */; };
+		4A98B35C1C1A738300702820 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A98B35A1C1A738300702820 /* GTMBase64.m */; };
+		4A98B4191C21152C00702820 /* UploadFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A98B4181C21152C00702820 /* UploadFiles.m */; };
+		4AD1ADCE1BF338B200C17245 /* safeURL.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AD1ADCD1BF338B200C17245 /* safeURL.plist */; };
+		4AD1AE431BF5E16A00C17245 /* bankEnvironmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1AE421BF5E16A00C17245 /* bankEnvironmentCell.m */; };
+		4AEB92D91BF07ED100816BA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB92D81BF07ED100816BA4 /* main.m */; };
+		4AEB92DC1BF07ED100816BA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB92DB1BF07ED100816BA4 /* AppDelegate.m */; };
+		4AEB92DF1BF07ED100816BA4 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB92DE1BF07ED100816BA4 /* ViewController.mm */; };
+		4AEB92E21BF07ED100816BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEB92E01BF07ED100816BA4 /* Main.storyboard */; };
+		4AEB92F21BF07ED100816BA4 /* FTBankHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB92F11BF07ED100816BA4 /* FTBankHelperTests.m */; };
+		4AEB92FD1BF07ED100816BA4 /* FTBankHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB92FC1BF07ED100816BA4 /* FTBankHelperUITests.m */; };
+		4AEB930D1BF0A10400816BA4 /* bk.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEB930C1BF0A10400816BA4 /* bk.png */; };
+		4AEB93101BF0A5AD00816BA4 /* IPhoneInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB930F1BF0A5AD00816BA4 /* IPhoneInfoViewController.m */; };
+		4AEB93151BF1B77B00816BA4 /* aboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB93141BF1B77B00816BA4 /* aboutUsViewController.m */; };
+		4AEB93181BF1C36800816BA4 /* bankEnvironmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB93171BF1C36800816BA4 /* bankEnvironmentViewController.m */; };
+		4AEB931A1BF1E4A100816BA4 /* BankURL.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AEB93191BF1E4A100816BA4 /* BankURL.plist */; };
+		4AF38A811FA30C7C00A75690 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AF38A831FA30C7C00A75690 /* Localizable.strings */; };
+		4AF38A921FA33B3100A75690 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F580B1F9DB43F0024432B /* UIKit.framework */; };
+		4AF38A931FA33B3A00A75690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F58071F9DB43F0024432B /* Foundation.framework */; };
+		68EBE5512436052800249522 /* FTOneClickCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EBE5502436052800249522 /* FTOneClickCheckController.m */; };
+		68EBE5542436061E00249522 /* oneKeyCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EBE5532436061E00249522 /* oneKeyCheckViewController.m */; };
+		68EBE55B2436073700249522 /* libFTABCBank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EBE5572436073700249522 /* libFTABCBank.a */; };
+		AF1D4C1722E1C6FE00736124 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1D4C1622E1C6FE00736124 /* GameKit.framework */; };
+		AF1D4C1922E1C70D00736124 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1D4C1822E1C70D00736124 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AEB92EE1BF07ED100816BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AEB92CC1BF07ED100816BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AEB92D31BF07ED100816BA4;
+			remoteInfo = FTBankHelper;
+		};
+		4AEB92F91BF07ED100816BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AEB92CC1BF07ED100816BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AEB92D31BF07ED100816BA4;
+			remoteInfo = FTBankHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A1632FB1FC277E1001F4572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A1EA73C1C228938000CAF23 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4A1EA73D1C228938000CAF23 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		4A1F70121BF701990004A663 /* aboutUsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutUsTableViewCell.h; sourceTree = "<group>"; };
+		4A1F70131BF701990004A663 /* aboutUsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutUsTableViewCell.m; sourceTree = "<group>"; };
+		4A1F70161BF71CEF0004A663 /* iphoneInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iphoneInfoTableViewCell.h; sourceTree = "<group>"; };
+		4A1F70171BF71CEF0004A663 /* iphoneInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iphoneInfoTableViewCell.m; sourceTree = "<group>"; };
+		4A1F70681BFB34830004A663 /* FeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewController.h; sourceTree = "<group>"; };
+		4A1F70691BFB34830004A663 /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
+		4A1F706B1BFB349F0004A663 /* FeedbackTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackTableViewCell.h; sourceTree = "<group>"; };
+		4A1F706C1BFB349F0004A663 /* FeedbackTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackTableViewCell.m; sourceTree = "<group>"; };
+		4A1F70791C004C190004A663 /* FeedbackTableViewCell3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackTableViewCell3.h; sourceTree = "<group>"; };
+		4A1F707A1C004C190004A663 /* FeedbackTableViewCell3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackTableViewCell3.m; sourceTree = "<group>"; };
+		4A1F707C1C004EC50004A663 /* FeedBackTableViewCell4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackTableViewCell4.h; sourceTree = "<group>"; };
+		4A1F707D1C004EC50004A663 /* FeedBackTableViewCell4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackTableViewCell4.m; sourceTree = "<group>"; };
+		4A62EC041FA0805100E11055 /* DeviceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceModel.h; sourceTree = "<group>"; };
+		4A62EC051FA0805100E11055 /* DeviceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceModel.m; sourceTree = "<group>"; };
+		4A6F58021F9DB3860024432B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4A6F58071F9DB43F0024432B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A6F580B1F9DB43F0024432B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A6F580F1F9DB4650024432B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4A6F58111F9DB46F0024432B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4A6F58131F9DB47B0024432B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4A6F58151F9DB4830024432B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4A6F58171F9DB48B0024432B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4A6F58191F9DB4940024432B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4A6F581E1F9DB84F0024432B /* MyMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMacro.h; sourceTree = "<group>"; };
+		4A6F582A1F9DD41A0024432B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		4A6F582B1F9DD41A0024432B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		4A6F582C1F9DD41A0024432B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		4A6F582D1F9DD41A0024432B /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		4A6F582E1F9DD41A0024432B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		4A98B3591C1A738300702820 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		4A98B35A1C1A738300702820 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		4A98B35B1C1A738300702820 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		4A98B4171C21152C00702820 /* UploadFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadFiles.h; sourceTree = "<group>"; };
+		4A98B4181C21152C00702820 /* UploadFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadFiles.m; sourceTree = "<group>"; };
+		4AD1ADCD1BF338B200C17245 /* safeURL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = safeURL.plist; sourceTree = "<group>"; };
+		4AD1AE411BF5E16A00C17245 /* bankEnvironmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bankEnvironmentCell.h; sourceTree = "<group>"; };
+		4AD1AE421BF5E16A00C17245 /* bankEnvironmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bankEnvironmentCell.m; sourceTree = "<group>"; };
+		4AEB92D41BF07ED100816BA4 /* 掌银助手.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "掌银助手.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEB92D81BF07ED100816BA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AEB92DA1BF07ED100816BA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AEB92DB1BF07ED100816BA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AEB92DD1BF07ED100816BA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AEB92DE1BF07ED100816BA4 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		4AEB92E11BF07ED100816BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AEB92E81BF07ED100816BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEB92ED1BF07ED100816BA4 /* FTBankHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTBankHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEB92F11BF07ED100816BA4 /* FTBankHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTBankHelperTests.m; sourceTree = "<group>"; };
+		4AEB92F31BF07ED100816BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEB92F81BF07ED100816BA4 /* FTBankHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTBankHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEB92FC1BF07ED100816BA4 /* FTBankHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTBankHelperUITests.m; sourceTree = "<group>"; };
+		4AEB92FE1BF07ED100816BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEB930C1BF0A10400816BA4 /* bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bk.png; sourceTree = "<group>"; };
+		4AEB930E1BF0A5AD00816BA4 /* IPhoneInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneInfoViewController.h; sourceTree = "<group>"; };
+		4AEB930F1BF0A5AD00816BA4 /* IPhoneInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhoneInfoViewController.m; sourceTree = "<group>"; };
+		4AEB93131BF1B77B00816BA4 /* aboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutUsViewController.h; sourceTree = "<group>"; };
+		4AEB93141BF1B77B00816BA4 /* aboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutUsViewController.m; sourceTree = "<group>"; };
+		4AEB93161BF1C36800816BA4 /* bankEnvironmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bankEnvironmentViewController.h; sourceTree = "<group>"; };
+		4AEB93171BF1C36800816BA4 /* bankEnvironmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bankEnvironmentViewController.m; sourceTree = "<group>"; };
+		4AEB93191BF1E4A100816BA4 /* BankURL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BankURL.plist; sourceTree = "<group>"; };
+		4AF38A7D1FA30A8800A75690 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		4AF38A821FA30C7C00A75690 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4AF38A841FA30C7D00A75690 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		68EBE54F2436052800249522 /* FTOneClickCheckController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTOneClickCheckController.h; sourceTree = "<group>"; };
+		68EBE5502436052800249522 /* FTOneClickCheckController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTOneClickCheckController.m; sourceTree = "<group>"; };
+		68EBE5522436061E00249522 /* oneKeyCheckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oneKeyCheckViewController.h; sourceTree = "<group>"; };
+		68EBE5532436061E00249522 /* oneKeyCheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oneKeyCheckViewController.m; sourceTree = "<group>"; };
+		68EBE5572436073700249522 /* libFTABCBank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFTABCBank.a; sourceTree = "<group>"; };
+		68EBE5582436073700249522 /* ABCBankProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCBankProtocol.h; sourceTree = "<group>"; };
+		68EBE5592436073700249522 /* FTPublicMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPublicMethods.h; sourceTree = "<group>"; };
+		68EBE55A2436073700249522 /* FTABCBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTABCBank.h; sourceTree = "<group>"; };
+		AF1D4C1622E1C6FE00736124 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		AF1D4C1822E1C70D00736124 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AEB92D11BF07ED100816BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EBE55B2436073700249522 /* libFTABCBank.a in Frameworks */,
+				AF1D4C1722E1C6FE00736124 /* GameKit.framework in Frameworks */,
+				4AF38A931FA33B3A00A75690 /* Foundation.framework in Frameworks */,
+				AF1D4C1922E1C70D00736124 /* StoreKit.framework in Frameworks */,
+				4AF38A921FA33B3100A75690 /* UIKit.framework in Frameworks */,
+				4A6F581A1F9DB4950024432B /* CoreTelephony.framework in Frameworks */,
+				4A6F58181F9DB48B0024432B /* MediaPlayer.framework in Frameworks */,
+				4A6F58161F9DB4830024432B /* CoreBluetooth.framework in Frameworks */,
+				4A6F58141F9DB47B0024432B /* AudioToolbox.framework in Frameworks */,
+				4A6F58121F9DB46F0024432B /* AVFoundation.framework in Frameworks */,
+				4A6F58101F9DB4650024432B /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEB92EA1BF07ED100816BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEB92F51BF07ED100816BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1F700C1BF6F8EA0004A663 /* bankEnvironment */ = {
+			isa = PBXGroup;
+			children = (
+				4AD1AE411BF5E16A00C17245 /* bankEnvironmentCell.h */,
+				4AD1AE421BF5E16A00C17245 /* bankEnvironmentCell.m */,
+				4AEB93161BF1C36800816BA4 /* bankEnvironmentViewController.h */,
+				4AEB93171BF1C36800816BA4 /* bankEnvironmentViewController.m */,
+			);
+			name = bankEnvironment;
+			sourceTree = "<group>";
+		};
+		4A1F700E1BF6FC100004A663 /* aboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				4AEB93131BF1B77B00816BA4 /* aboutUsViewController.h */,
+				4AEB93141BF1B77B00816BA4 /* aboutUsViewController.m */,
+				4A1F70121BF701990004A663 /* aboutUsTableViewCell.h */,
+				4A1F70131BF701990004A663 /* aboutUsTableViewCell.m */,
+			);
+			name = aboutUs;
+			sourceTree = "<group>";
+		};
+		4A1F70151BF71BB00004A663 /* iphoneInfo */ = {
+			isa = PBXGroup;
+			children = (
+				4AEB930E1BF0A5AD00816BA4 /* IPhoneInfoViewController.h */,
+				4AEB930F1BF0A5AD00816BA4 /* IPhoneInfoViewController.m */,
+				4A1F70161BF71CEF0004A663 /* iphoneInfoTableViewCell.h */,
+				4A1F70171BF71CEF0004A663 /* iphoneInfoTableViewCell.m */,
+			);
+			name = iphoneInfo;
+			sourceTree = "<group>";
+		};
+		4A1F70601BF869290004A663 /* oneKeyCheck */ = {
+			isa = PBXGroup;
+			children = (
+				68EBE5522436061E00249522 /* oneKeyCheckViewController.h */,
+				68EBE5532436061E00249522 /* oneKeyCheckViewController.m */,
+			);
+			name = oneKeyCheck;
+			sourceTree = "<group>";
+		};
+		4A1F70671BFB33A20004A663 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				4A1F70681BFB34830004A663 /* FeedBackViewController.h */,
+				4A1F70691BFB34830004A663 /* FeedBackViewController.m */,
+				4A1F706B1BFB349F0004A663 /* FeedbackTableViewCell.h */,
+				4A1F706C1BFB349F0004A663 /* FeedbackTableViewCell.m */,
+				4A1F70791C004C190004A663 /* FeedbackTableViewCell3.h */,
+				4A1F707A1C004C190004A663 /* FeedbackTableViewCell3.m */,
+				4A1F707C1C004EC50004A663 /* FeedBackTableViewCell4.h */,
+				4A1F707D1C004EC50004A663 /* FeedBackTableViewCell4.m */,
+			);
+			name = Feedback;
+			sourceTree = "<group>";
+		};
+		4A6F58031F9DB3F30024432B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D4C1822E1C70D00736124 /* StoreKit.framework */,
+				AF1D4C1622E1C6FE00736124 /* GameKit.framework */,
+				4A6F58191F9DB4940024432B /* CoreTelephony.framework */,
+				4A6F58171F9DB48B0024432B /* MediaPlayer.framework */,
+				4A6F58151F9DB4830024432B /* CoreBluetooth.framework */,
+				4A6F58131F9DB47B0024432B /* AudioToolbox.framework */,
+				4A6F58111F9DB46F0024432B /* AVFoundation.framework */,
+				4A6F580F1F9DB4650024432B /* CoreMotion.framework */,
+				4A6F58071F9DB43F0024432B /* Foundation.framework */,
+				4A6F580B1F9DB43F0024432B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A6F581F1F9DCC880024432B /* DeviceList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DeviceList;
+			sourceTree = "<group>";
+		};
+		4A6F58291F9DD41A0024432B /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4A6F582A1F9DD41A0024432B /* SVIndefiniteAnimatedView.h */,
+				4A6F582B1F9DD41A0024432B /* SVIndefiniteAnimatedView.m */,
+				4A6F582C1F9DD41A0024432B /* SVProgressHUD.bundle */,
+				4A6F582D1F9DD41A0024432B /* SVProgressHUD.h */,
+				4A6F582E1F9DD41A0024432B /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = SOURCE_ROOT;
+		};
+		4AD1ADD41BF35C1200C17245 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				68EBE5562436073700249522 /* lib */,
+				4AF38A911FA322F500A75690 /* Base64 */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4AEB92CB1BF07ED100816BA4 = {
+			isa = PBXGroup;
+			children = (
+				4AEB92D61BF07ED100816BA4 /* FTBankHelper */,
+				4AEB92F01BF07ED100816BA4 /* FTBankHelperTests */,
+				4AEB92FB1BF07ED100816BA4 /* FTBankHelperUITests */,
+				4AEB92D51BF07ED100816BA4 /* Products */,
+				4A6F58031F9DB3F30024432B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AEB92D51BF07ED100816BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AEB92D41BF07ED100816BA4 /* 掌银助手.app */,
+				4AEB92ED1BF07ED100816BA4 /* FTBankHelperTests.xctest */,
+				4AEB92F81BF07ED100816BA4 /* FTBankHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AEB92D61BF07ED100816BA4 /* FTBankHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4A6F58291F9DD41A0024432B /* SVProgressHUD */,
+				4A6F581F1F9DCC880024432B /* DeviceList */,
+				4AD1ADD41BF35C1200C17245 /* include */,
+				4A62EC041FA0805100E11055 /* DeviceModel.h */,
+				4A62EC051FA0805100E11055 /* DeviceModel.m */,
+				4AEB92DD1BF07ED100816BA4 /* ViewController.h */,
+				4AEB92DE1BF07ED100816BA4 /* ViewController.mm */,
+				68EBE54F2436052800249522 /* FTOneClickCheckController.h */,
+				68EBE5502436052800249522 /* FTOneClickCheckController.m */,
+				4A98B4171C21152C00702820 /* UploadFiles.h */,
+				4A98B4181C21152C00702820 /* UploadFiles.m */,
+				4A1EA73C1C228938000CAF23 /* Reachability.h */,
+				4A1EA73D1C228938000CAF23 /* Reachability.m */,
+				4AEB930C1BF0A10400816BA4 /* bk.png */,
+				4AEB92E01BF07ED100816BA4 /* Main.storyboard */,
+				4A1F70601BF869290004A663 /* oneKeyCheck */,
+				4A1F700C1BF6F8EA0004A663 /* bankEnvironment */,
+				4A1F700E1BF6FC100004A663 /* aboutUs */,
+				4A1F70151BF71BB00004A663 /* iphoneInfo */,
+				4A1F70671BFB33A20004A663 /* Feedback */,
+				4AEB92D71BF07ED100816BA4 /* Supporting Files */,
+			);
+			path = FTBankHelper;
+			sourceTree = "<group>";
+		};
+		4AEB92D71BF07ED100816BA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A1632FB1FC277E1001F4572 /* Assets.xcassets */,
+				4AEB92DA1BF07ED100816BA4 /* AppDelegate.h */,
+				4AEB92DB1BF07ED100816BA4 /* AppDelegate.m */,
+				4A6F581E1F9DB84F0024432B /* MyMacro.h */,
+				4AEB92E81BF07ED100816BA4 /* Info.plist */,
+				4AEB93191BF1E4A100816BA4 /* BankURL.plist */,
+				4AD1ADCD1BF338B200C17245 /* safeURL.plist */,
+				4AEB92D81BF07ED100816BA4 /* main.m */,
+				4A6F58021F9DB3860024432B /* PrefixHeader.pch */,
+				4AF38A831FA30C7C00A75690 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AEB92F01BF07ED100816BA4 /* FTBankHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AEB92F11BF07ED100816BA4 /* FTBankHelperTests.m */,
+				4AEB92F31BF07ED100816BA4 /* Info.plist */,
+			);
+			path = FTBankHelperTests;
+			sourceTree = "<group>";
+		};
+		4AEB92FB1BF07ED100816BA4 /* FTBankHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AEB92FC1BF07ED100816BA4 /* FTBankHelperUITests.m */,
+				4AEB92FE1BF07ED100816BA4 /* Info.plist */,
+			);
+			path = FTBankHelperUITests;
+			sourceTree = "<group>";
+		};
+		4AF38A911FA322F500A75690 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				4A98B3591C1A738300702820 /* GTMBase64.h */,
+				4A98B35A1C1A738300702820 /* GTMBase64.m */,
+				4A98B35B1C1A738300702820 /* GTMDefines.h */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		68EBE5562436073700249522 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				68EBE5572436073700249522 /* libFTABCBank.a */,
+				68EBE5582436073700249522 /* ABCBankProtocol.h */,
+				68EBE5592436073700249522 /* FTPublicMethods.h */,
+				68EBE55A2436073700249522 /* FTABCBank.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AEB92D31BF07ED100816BA4 /* FTBankHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEB93011BF07ED100816BA4 /* Build configuration list for PBXNativeTarget "FTBankHelper" */;
+			buildPhases = (
+				4AEB92D11BF07ED100816BA4 /* Frameworks */,
+				4AEB92D01BF07ED100816BA4 /* Sources */,
+				4AEB92D21BF07ED100816BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTBankHelper;
+			productName = FTBankHelper;
+			productReference = 4AEB92D41BF07ED100816BA4 /* 掌银助手.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AEB92EC1BF07ED100816BA4 /* FTBankHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEB93041BF07ED100816BA4 /* Build configuration list for PBXNativeTarget "FTBankHelperTests" */;
+			buildPhases = (
+				4AEB92E91BF07ED100816BA4 /* Sources */,
+				4AEB92EA1BF07ED100816BA4 /* Frameworks */,
+				4AEB92EB1BF07ED100816BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AEB92EF1BF07ED100816BA4 /* PBXTargetDependency */,
+			);
+			name = FTBankHelperTests;
+			productName = FTBankHelperTests;
+			productReference = 4AEB92ED1BF07ED100816BA4 /* FTBankHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AEB92F71BF07ED100816BA4 /* FTBankHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEB93071BF07ED100816BA4 /* Build configuration list for PBXNativeTarget "FTBankHelperUITests" */;
+			buildPhases = (
+				4AEB92F41BF07ED100816BA4 /* Sources */,
+				4AEB92F51BF07ED100816BA4 /* Frameworks */,
+				4AEB92F61BF07ED100816BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AEB92FA1BF07ED100816BA4 /* PBXTargetDependency */,
+			);
+			name = FTBankHelperUITests;
+			productName = FTBankHelperUITests;
+			productReference = 4AEB92F81BF07ED100816BA4 /* FTBankHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AEB92CC1BF07ED100816BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Jermy;
+				TargetAttributes = {
+					4AEB92D31BF07ED100816BA4 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = S47T4UESP3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					4AEB92EC1BF07ED100816BA4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4AEB92D31BF07ED100816BA4;
+					};
+					4AEB92F71BF07ED100816BA4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4AEB92D31BF07ED100816BA4;
+					};
+				};
+			};
+			buildConfigurationList = 4AEB92CF1BF07ED100816BA4 /* Build configuration list for PBXProject "FTBankHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 4AEB92CB1BF07ED100816BA4;
+			productRefGroup = 4AEB92D51BF07ED100816BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AEB92D31BF07ED100816BA4 /* FTBankHelper */,
+				4AEB92EC1BF07ED100816BA4 /* FTBankHelperTests */,
+				4AEB92F71BF07ED100816BA4 /* FTBankHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AEB92D21BF07ED100816BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6F58301F9DD41B0024432B /* SVProgressHUD.bundle in Resources */,
+				4AEB931A1BF1E4A100816BA4 /* BankURL.plist in Resources */,
+				4AD1ADCE1BF338B200C17245 /* safeURL.plist in Resources */,
+				4AEB92E21BF07ED100816BA4 /* Main.storyboard in Resources */,
+				4A1632FC1FC277E1001F4572 /* Assets.xcassets in Resources */,
+				4AEB930D1BF0A10400816BA4 /* bk.png in Resources */,
+				4AF38A811FA30C7C00A75690 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEB92EB1BF07ED100816BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEB92F61BF07ED100816BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AEB92D01BF07ED100816BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEB92DF1BF07ED100816BA4 /* ViewController.mm in Sources */,
+				4AD1AE431BF5E16A00C17245 /* bankEnvironmentCell.m in Sources */,
+				4A62EC061FA0805100E11055 /* DeviceModel.m in Sources */,
+				4AEB92DC1BF07ED100816BA4 /* AppDelegate.m in Sources */,
+				4A98B35C1C1A738300702820 /* GTMBase64.m in Sources */,
+				68EBE5542436061E00249522 /* oneKeyCheckViewController.m in Sources */,
+				4AEB93181BF1C36800816BA4 /* bankEnvironmentViewController.m in Sources */,
+				4A1F707B1C004C190004A663 /* FeedbackTableViewCell3.m in Sources */,
+				4A98B4191C21152C00702820 /* UploadFiles.m in Sources */,
+				4AEB92D91BF07ED100816BA4 /* main.m in Sources */,
+				4A6F582F1F9DD41B0024432B /* SVIndefiniteAnimatedView.m in Sources */,
+				4A6F58311F9DD41B0024432B /* SVProgressHUD.m in Sources */,
+				4A1F706D1BFB349F0004A663 /* FeedbackTableViewCell.m in Sources */,
+				4A1F706A1BFB34830004A663 /* FeedBackViewController.m in Sources */,
+				68EBE5512436052800249522 /* FTOneClickCheckController.m in Sources */,
+				4A1EA73E1C228938000CAF23 /* Reachability.m in Sources */,
+				4AEB93151BF1B77B00816BA4 /* aboutUsViewController.m in Sources */,
+				4AEB93101BF0A5AD00816BA4 /* IPhoneInfoViewController.m in Sources */,
+				4A1F70181BF71CEF0004A663 /* iphoneInfoTableViewCell.m in Sources */,
+				4A1F70141BF701990004A663 /* aboutUsTableViewCell.m in Sources */,
+				4A1F707E1C004EC50004A663 /* FeedBackTableViewCell4.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEB92E91BF07ED100816BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEB92F21BF07ED100816BA4 /* FTBankHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEB92F41BF07ED100816BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEB92FD1BF07ED100816BA4 /* FTBankHelperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AEB92EF1BF07ED100816BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AEB92D31BF07ED100816BA4 /* FTBankHelper */;
+			targetProxy = 4AEB92EE1BF07ED100816BA4 /* PBXContainerItemProxy */;
+		};
+		4AEB92FA1BF07ED100816BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AEB92D31BF07ED100816BA4 /* FTBankHelper */;
+			targetProxy = 4AEB92F91BF07ED100816BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AEB92E01BF07ED100816BA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AEB92E11BF07ED100816BA4 /* Base */,
+				4AF38A7D1FA30A8800A75690 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AF38A831FA30C7C00A75690 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF38A821FA30C7C00A75690 /* zh-Hans */,
+				4AF38A841FA30C7D00A75690 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AEB92FF1BF07ED100816BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ./FTBankHelper/include/polarssl/include;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AEB93001BF07ED100816BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ./FTBankHelper/include/polarssl/include;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AEB93021BF07ED100816BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Feitian Technologies Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = S47T4UESP3;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/id/Desktop/git/Jenkins/FTBankHelper/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					FTSAFE,
+				);
+				HEADER_SEARCH_PATHS = ./FTBankHelper/include/polarssl/include;
+				INFOPLIST_FILE = FTBankHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/FTBankHelper/include @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/FTBankHelper",
+					"$(PROJECT_DIR)/FTBankHelper/include",
+					"$(PROJECT_DIR)/FTBankHelper/include/audio",
+					"$(PROJECT_DIR)/FTBankHelper/include/BLE",
+					"$(PROJECT_DIR)/FTBankHelper/include/lib",
+				);
+				MARKETING_VERSION = 2.4.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftsafe.BankHelper;
+				PRODUCT_NAME = "掌银助手";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4AEB93031BF07ED100816BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Feitian Technologies Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = S47T4UESP3;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/id/Desktop/git/Jenkins/FTBankHelper/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = FTSAFE;
+				HEADER_SEARCH_PATHS = ./FTBankHelper/include/polarssl/include;
+				INFOPLIST_FILE = FTBankHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/FTBankHelper/include @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/FTBankHelper",
+					"$(PROJECT_DIR)/FTBankHelper/include",
+					"$(PROJECT_DIR)/FTBankHelper/include/audio",
+					"$(PROJECT_DIR)/FTBankHelper/include/BLE",
+					"$(PROJECT_DIR)/FTBankHelper/include/lib",
+				);
+				MARKETING_VERSION = 2.4.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftsafe.BankHelper;
+				PRODUCT_NAME = "掌银助手";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4AEB93051BF07ED100816BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FTBankHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftsafe.FTBankHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTBankHelper.app/FTBankHelper";
+			};
+			name = Debug;
+		};
+		4AEB93061BF07ED100816BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FTBankHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftsafe.FTBankHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTBankHelper.app/FTBankHelper";
+			};
+			name = Release;
+		};
+		4AEB93081BF07ED100816BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FTBankHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftsafe.FTBankHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FTBankHelper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4AEB93091BF07ED100816BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FTBankHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftsafe.FTBankHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FTBankHelper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AEB92CF1BF07ED100816BA4 /* Build configuration list for PBXProject "FTBankHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEB92FF1BF07ED100816BA4 /* Debug */,
+				4AEB93001BF07ED100816BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEB93011BF07ED100816BA4 /* Build configuration list for PBXNativeTarget "FTBankHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEB93021BF07ED100816BA4 /* Debug */,
+				4AEB93031BF07ED100816BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEB93041BF07ED100816BA4 /* Build configuration list for PBXNativeTarget "FTBankHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEB93051BF07ED100816BA4 /* Debug */,
+				4AEB93061BF07ED100816BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEB93071BF07ED100816BA4 /* Build configuration list for PBXNativeTarget "FTBankHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEB93081BF07ED100816BA4 /* Debug */,
+				4AEB93091BF07ED100816BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AEB92CC1BF07ED100816BA4 /* Project object */;
+}

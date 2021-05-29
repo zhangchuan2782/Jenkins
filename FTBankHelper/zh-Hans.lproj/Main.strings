@@ -1,0 +1,33 @@
+
+/* Class = "UINavigationItem"; title = "手机银行助手"; ObjectID = "1Fq-Bp-Aqe"; */
+"1Fq-Bp-Aqe.title" = "手机银行助手";
+
+/* Class = "UINavigationItem"; title = "一键检测"; ObjectID = "4GC-Ib-Hre"; */
+"4GC-Ib-Hre.title" = "一键检测";
+
+/* Class = "UINavigationItem"; title = "关于我们"; ObjectID = "IHe-GU-TMN"; */
+"IHe-GU-TMN.title" = "关于我们";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LQw-uY-7Pz"; */
+"LQw-uY-7Pz.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "掌银环境检测"; ObjectID = "OUq-pZ-5S0"; */
+"OUq-pZ-5S0.title" = "掌银环境检测";
+
+/* Class = "UINavigationItem"; title = "问题反馈"; ObjectID = "Vld-jA-WK7"; */
+"Vld-jA-WK7.title" = "问题反馈";
+
+/* Class = "UINavigationItem"; title = "本机信息"; ObjectID = "cAF-hw-wGx"; */
+"cAF-hw-wGx.title" = "本机信息";
+
+/* Class = "UIButton"; normalTitle = "本机信息"; ObjectID = "eiH-o1-tiC"; */
+"eiH-o1-tiC.normalTitle" = "本机信息";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jVc-nB-QIn"; */
+"jVc-nB-QIn.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "s7V-dP-N5q"; */
+"s7V-dP-N5q.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uAE-OH-694"; */
+"uAE-OH-694.text" = "Label";
