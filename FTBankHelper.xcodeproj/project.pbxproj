@@ -85,7 +85,6 @@
 		4A1F707D1C004EC50004A663 /* FeedBackTableViewCell4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackTableViewCell4.m; sourceTree = "<group>"; };
 		4A62EC041FA0805100E11055 /* DeviceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceModel.h; sourceTree = "<group>"; };
 		4A62EC051FA0805100E11055 /* DeviceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceModel.m; sourceTree = "<group>"; };
-		4A6F58021F9DB3860024432B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4A6F58071F9DB43F0024432B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4A6F580B1F9DB43F0024432B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4A6F580F1F9DB4650024432B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
@@ -343,7 +342,6 @@
 				4AEB93191BF1E4A100816BA4 /* BankURL.plist */,
 				4AD1ADCD1BF338B200C17245 /* safeURL.plist */,
 				4AEB92D81BF07ED100816BA4 /* main.m */,
-				4A6F58021F9DB3860024432B /* PrefixHeader.pch */,
 				4AF38A831FA30C7C00A75690 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
@@ -735,7 +733,7 @@
 				ENABLE_BITCODE = NO;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/id/Desktop/git/Jenkins/FTBankHelper/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					FTSAFE,
@@ -775,7 +773,7 @@
 				ENABLE_BITCODE = NO;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/id/Desktop/git/Jenkins/FTBankHelper/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = FTSAFE;
 				HEADER_SEARCH_PATHS = ./FTBankHelper/include/polarssl/include;
 				INFOPLIST_FILE = FTBankHelper/Info.plist;

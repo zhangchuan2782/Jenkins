@@ -10,6 +10,11 @@
 #import "oneKeyCheckViewController.h"
 #import "FTPublicMethods.h"
 
+typedef NS_ENUM(int, KeyType){
+    KeyType_Audio = 0,
+    KeyType_BLE = 1,
+};
+
 @interface ViewController ()<UIAlertViewDelegate>
 @property (nonatomic, weak) IBOutlet UIImageView *imageView;
 @property (nonatomic, weak) IBOutlet UIButton *iphoneInfoButton;
